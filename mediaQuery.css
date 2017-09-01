@@ -1,0 +1,104 @@
+@media only screen and (max-width:640px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    header {}
+    .navbar-custom {
+        display: none;
+        position: relative;
+        padding: 20px;
+        background: #1e807b;
+        right: 0px;
+        top: 0px;
+        width: 100%;
+        padding-right: 100px;
+    }
+    .navbar-custom:hover ul {
+        display: block;
+    }
+    .navbar-custom>li {
+        text-align: left;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        font-size: 1em;
+    }
+    /*    nav-wrap ul li {
+        display: none;
+        width: 100%;
+        text-align: left;
+        padding: 15px;
+    }
+    */
+    .header-banner {
+        padding: 0 10px 0 10px;
+    }
+    .header-name {
+        font-size: 40px;
+        font-weight: 400;
+        font-family: sans-serif;
+    }
+    .header-ban{
+        font-size:px; 
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .btn-menu {
+        display: block;
+        background-color: #1e807b;
+        color: white;
+        font-size: 3em;
+        float: left;
+    }
+   .btn-menu:before {
+        content: " ";
+    }
+    #about {
+        width: auto;
+        height: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .pic {
+        display: none;
+    }
+    /* Resume section*/
+    #resume {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    /*Experience section*/
+    #experience {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .social>li {
+        font-size: 0.8em;
+        margin-left: 5px;
+    }
+    .social-links>li {
+        font-size: 0.5em;
+        margin-left: 5px;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .social-links>li>a{
+        
+        
+    }
+    .foot1 {
+        font-size: 1em;
+        width: 100%;
+        height: auto;
+    }
+    
+    .custom-top{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        padding-top: 6px;
+    }
+}
